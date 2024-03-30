@@ -161,6 +161,7 @@ public class DiaryService {
         dateWeatherRepository.save(getWeatherFromApi());
     }
     
+    @Transactional
     public void updateDiary(LocalDate date, String text) {
         Diary diary = diaryRepository.getFirstByDate(date);
         diary.setText(text);
