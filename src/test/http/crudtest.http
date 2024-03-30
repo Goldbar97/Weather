@@ -1,0 +1,22 @@
+### create
+POST http://localhost:8080/create/diary?date=2024-03-27
+Content-Type: application/json
+
+GOOD DAY
+
+### get
+GET http://localhost:8080/read/diary?date=4024-03-27
+Accept: application/json
+
+### get between
+GET http://localhost:8080/read/diaries?startDate=2024-01-27&endDate=2024-11-27
+Accept: application/json
+
+### delete
+DELETE http://localhost:8080/delete/diary?date=2024-03-27
+
+### update
+PUT http://localhost:8080/update/diary?date=2024-03-30
+Content-Type: application/json
+
+This is 2020-04-20 diary
