@@ -1,3 +1,10 @@
+<div align="center">
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logoColor=white">
+  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
+  <img src="https://img.shields.io/badge/mariadb-003545?style=for-the-badge&logo=mariadb&logoColor=white">
+  <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
+</div>
+
 # 프로젝트 실습
 
 ## 1. 필독
